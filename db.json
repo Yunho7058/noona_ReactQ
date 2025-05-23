@@ -1,7 +1,25 @@
 {
   "posts": [
-    { "id": "1", "title": "자바스크립트", "views": 100 },
-    { "id": "2", "title": "리액트", "views": 200 },
-    { "id": "2", "title": "타입스크립트", "views": 200 }
+    {
+      "id": 1,
+      "title": "Hello JSON Server",
+      "content": "This is the first post",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "React + Vite + JSON Server",
+      "content": "Quick prototyping is fun!",
+      "userId": 2
+    }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "content": "Nice post!" },
+    { "id": 2, "postId": 1, "content": "Thanks for sharing" },
+    { "id": 3, "postId": 2, "content": "Helpful example" }
+  ],
+  "users": [
+    { "id": 1, "name": "Alice" },
+    { "id": 2, "name": "Bob" }
   ]
 }
